@@ -5,9 +5,9 @@ import qrcode
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, CallbackContext
 
-CLIENT_ID = '9d3a363f8e1dfda4efc3207da17462a2'
+CLIENT_ID = ''
 URL = "https://api.imgbb.com/1/upload?key=" + CLIENT_ID
-TOKEN = '6896121180:AAE3ANCpdbHxUIICDA_iqd1fEDXseSW26to'
+TOKEN = ''
 
 
 def start(update: Update, context: CallbackContext) -> None:
